@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-using CursoCSharp.Fundamentos;
+﻿using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 
 namespace CursoCSharp {
@@ -33,6 +30,8 @@ namespace CursoCSharp {
                 {"Estrutura Do While", EstruturaDoWhile.Executar},
                 {"Estrutura for", EstruturaFor.Executar},
                 {"Estrutura forheach", EstruturaForEach.Executar},
+                {"Estrutura break", EstruturaBreak.Executar},
+                {"Estrutura continue", EstruturaContinue.Executar},
             });
 
             central.SelecionarEExecutar();
