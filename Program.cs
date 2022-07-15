@@ -1,4 +1,7 @@
-﻿using CursoCSharp.Fundamentos;
+﻿using System;
+using System.Collections.Generic;
+
+using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 
 namespace CursoCSharp {
