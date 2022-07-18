@@ -3,11 +3,13 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.ClassesEMedodos;
 
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+
                 // Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
@@ -24,17 +26,21 @@ namespace CursoCSharp {
                 {"Operadores é Atibuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operadores Ternário - Fundamentos", OperadorTernario.Executar},
+
                 //Estruturas de controle
-                {"Estrutura if ", EstruturaIf.Executar},
-                {"Estrutura If é Else", EstruturaIfElse.Executar},
-                {"Estrutura If é Else If", EstruturaIfElseIf.Executar},
-                {"Estrutura Switch", EstruturaSwitch.Executar},
-                {"Estrutura While", EstruturaWhile.Executar},
-                {"Estrutura Do While", EstruturaDoWhile.Executar},
-                {"Estrutura for", EstruturaFor.Executar},
-                {"Estrutura forheach", EstruturaForEach.Executar},
-                {"Estrutura break", EstruturaBreak.Executar},
-                {"Estrutura continue", EstruturaContinue.Executar},
+                {"Estrutura if - Estrutura de Controle ", EstruturaIf.Executar},
+                {"Estrutura If é Else - Estrutura de Controle", EstruturaIfElse.Executar},
+                {"Estrutura If é Else If - Estrutura de Controle", EstruturaIfElseIf.Executar},
+                {"Estrutura Switch - Estrutura de Controle", EstruturaSwitch.Executar},
+                {"Estrutura While - Estrutura de Controle", EstruturaWhile.Executar},
+                {"Estrutura Do While - Estrutura de Controle", EstruturaDoWhile.Executar},
+                {"Estrutura for - Estrutura de Controle", EstruturaFor.Executar},
+                {"Estrutura forheach - Estrutura de Controle", EstruturaForEach.Executar},
+                {"Estrutura break - Estrutura de Controle", EstruturaBreak.Executar},
+                {"Estrutura continue - Estrutura de Controle", EstruturaContinue.Executar},
+
+                //
+                {"Membros - Classes e Metodos ", Membros.Executar},
             });
 
             central.SelecionarEExecutar();
