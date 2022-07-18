@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMedodos;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
