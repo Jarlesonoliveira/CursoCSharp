@@ -4,6 +4,7 @@ using System.Text;
 
 namespace CursoCSharp.ClassesEMetodos {
     public class Moto {
+        // Quando não coloca o atributo "private" o atribudo é private visibilidade padrão!
         private string Marca;
         private string Modelo;
         private uint Cilindrada;
