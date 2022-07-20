@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CursoCSharp.ClassesEMedodos;
+using System;
 
-namespace CursoCSharp.ClassesEMedodos {
+namespace CursoCSharp.ClassesEMetodos {
     class Membros {
         public static void Executar() {
             Pessoa sicrano = new Pessoa();
             sicrano.Nome = "Renato";
-            sicrano.Idade = 30;
+            sicrano.Idade = 21;
 
-            //Console.WriteLine($"{sicrano.Nome} tem {sicrano.Idade} anos.");
+            // Console.WriteLine($"{sicrano.Nome} tem {sicrano.Idade} anos.");
 
             sicrano.ApresentarNoConsole();
             sicrano.Zerar();
@@ -17,7 +16,7 @@ namespace CursoCSharp.ClassesEMedodos {
 
             var fulano = new Pessoa();
             fulano.Nome = "Beto";
-            fulano.Idade = 30;
+            fulano.Idade = 21;
 
             var apresentacaoDoFulano = fulano.Apresentar();
             Console.WriteLine(apresentacaoDoFulano.Length);
