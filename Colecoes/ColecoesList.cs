@@ -3,13 +3,24 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CursoCSharp.Colecoes {
-    public class Produto {
+    public class Produto {//Atalho para gerar opções de construtor as techas "Ctrl + ."
         public string Nome;
         public double Preco;
 
         public Produto(string nome, double preco) {
             Nome = nome;
             Preco = preco;
+        }
+
+        public override bool Equals(object obj) {
+            var produto = obj as Produto;
+            return produto != null &&
+                   Nome == produto.Nome &&
+                   Preco == produto.Preco;
+        }
+
+        public override int GetHashCode() {
+            return HashCode.Combine(Nome, Preco);
         }
     }
     class ColecoesList {
