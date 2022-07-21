@@ -28,7 +28,7 @@ namespace CursoCSharp.Colecoes {
 
             //AddRange adiciona os itens de uma so vez
             carrinho.AddRange(combo);
-            Console.WriteLine(carrinho.Count);//Count você ver o tamanho da lista
+            Console.WriteLine(carrinho.Count);//Count você exibe o tamanho da lista
             carrinho.RemoveAt(3);//RemoveAt remove por indice o elemento de uma lista
 
             foreach(var item in carrinho) {

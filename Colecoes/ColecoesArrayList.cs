@@ -14,6 +14,7 @@ namespace CursoCSharp.Colecoes {
 
             arrayList.RemoveAt(2);
             arrayList.Add(3.14);
+            //arrayList.Count;
 
             foreach(var item in arrayList) {
                 //GetType pra saber qual foi o tipo inferido a parte do array
