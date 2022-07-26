@@ -90,6 +90,7 @@ namespace CursoCSharp {
 
                 //Exceções
                 {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+                {"Execeções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
 
             });
 
