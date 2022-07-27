@@ -95,6 +95,8 @@ namespace CursoCSharp {
 
                 //Api
                 {"Primeiro Arquivo - Api", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - Api", LendoArquivos.Executar},
+                {"Exemplo De File Info - Api", ExemploFileInfo.Executar},
 
             });
 
