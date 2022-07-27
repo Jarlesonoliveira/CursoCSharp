@@ -4,4 +4,4 @@
 
 /.vs/CursoCSharp/v15/Server/sqlite3
 /bin/Debug/netcoreapp2.1
-/obj
+/obj/Debug/netcoreapp2.1
