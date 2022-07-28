@@ -94,9 +94,11 @@ namespace CursoCSharp {
                 {"Execeções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
 
                 //Api
-                {"Primeiro Arquivo - Api", PrimeiroArquivo.Executar},
-                {"Lendo Arquivos - Api", LendoArquivos.Executar},
-                {"Exemplo De File Info - Api", ExemploFileInfo.Executar},
+                {"Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - Usando API", LendoArquivos.Executar},
+                {"Exemplo De File Info - Usando API", ExemploFileInfo.Executar},
+                {"Diretorios - Usando API", Diretorios.Executar},
+                {"Exemplo de Directory Info - Usando API", ExemploDirectoryInfo.Executar},
 
             });
 
