@@ -50,6 +50,14 @@ namespace CursoCSharp.TopicosAvancados {
             //Avarege mostra a media das notas na lista
             var mediaDaTurma = alunos.Average(aluno => aluno.Nota);
             Console.WriteLine(mediaDaTurma);
+            //media dos alunos com a nota maior que 7
+            var mediaMelhorNota = alunos.Where(a => a.Nota > 7)
+                .Average(aluno => aluno.Nota);
+            Console.WriteLine(mediaMelhorNota);
+            //media dos alunos com a nota menor que 7
+            var mediaMenorNota = alunos.Where(a => a.Nota < 7)
+    .Average(aluno => aluno.Nota);
+            Console.WriteLine(mediaMenorNota);
         }
     }
 }

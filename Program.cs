@@ -105,8 +105,9 @@ namespace CursoCSharp {
                 {"Exemplo de TimeSpan - Usando API", ExemploTimeSpan.Executar},
 
                 //Topicos Avançados
-                {"LINQ1 #01- Topicos Avançados", LINQ1.Executar},
-                {"LINQ2 #02- Topicos Avançados", LINQ2.Executar},
+                {"LINQ1 #01 - Topicos Avançados", LINQ1.Executar},
+                {"LINQ2 #02 - Topicos Avançados", LINQ2.Executar},
+                {"Nullables - Topicos Avançados", Nullables.Executar},
 
             });
 
