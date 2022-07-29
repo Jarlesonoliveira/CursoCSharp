@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Linq;//para habilitar o where precisa do using System.Linq;
 
 namespace CursoCSharp.TopicosAvancados {
     public class Aluno {
